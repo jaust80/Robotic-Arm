@@ -3,9 +3,11 @@
 We will be documenting our progress throughout our project.
 
 
-# Original / Prototype designs
+# Prototype designs
 
+We originally settled on using carbon fiber for the rods on the arm, however it was much more expensive and ended up not being worth it because of the strength and price of the acrylic already in the lab. 
 
+![download](https://user-images.githubusercontent.com/71342179/151813229-076533c0-4f9b-4cd5-8b17-451c890c152f.jpg)
 
 # Servo Holder
 
