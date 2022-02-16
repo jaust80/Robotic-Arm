@@ -24,7 +24,7 @@ The first part we started to design was the servo holder. An immediate issue we 
 ## Onshape Model
 
 ![Rod With Hook](https://user-images.githubusercontent.com/90460146/154286836-ec5ebedf-9471-4f4b-84d3-3f1958a75f24.png)
-![Servo Holder with Rod and Hook](https://user-images.githubusercontent.com/90460146/154290177-98077028-bf19-4b5e-8d3f-016543fdb93e.png)
+![Servo with Rod and Hook](https://user-images.githubusercontent.com/90460146/154290177-98077028-bf19-4b5e-8d3f-016543fdb93e.png)
 
 
 ## Information / Process
@@ -38,7 +38,7 @@ The rod and hook took a little time to get a good model of, but in the end we en
 ## Onshape Model 
 ![basic hook](https://user-images.githubusercontent.com/71342179/151715843-d2c4526a-2fc1-4f46-9648-94be1aae75da.png)
 ![Rod With Hook](https://user-images.githubusercontent.com/90460146/154286836-ec5ebedf-9471-4f4b-84d3-3f1958a75f24.png)
-![Servo Holder with Rod and Hook](https://user-images.githubusercontent.com/90460146/154289474-ed0a2591-a316-402f-8238-1119df357bf3.png)
+![Servo with Rod and Hook](https://user-images.githubusercontent.com/90460146/154289474-ed0a2591-a316-402f-8238-1119df357bf3.png)
 ![IMG_1706](https://user-images.githubusercontent.com/71342179/151716107-035d8401-7f1f-4471-910f-bb83f82dabac.jpg)
 ![IMG_1708](https://user-images.githubusercontent.com/71342179/151716212-1a70c00b-2ffe-455c-a631-093550a1532f.jpg)
 
