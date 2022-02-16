@@ -13,6 +13,8 @@ We originally settled on using carbon fiber for the rods on the arm, however it 
 
 ## Onshape Model![servo holder](https://user-images.githubusercontent.com/71342179/151715472-0ab765e4-2eed-473a-b299-8699befc805a.PNG)
 ![servo](https://user-images.githubusercontent.com/71342179/151715729-b2421684-db5e-498a-9904-1c4eaa2ae02a.png)
+![Rod With Hook](https://user-images.githubusercontent.com/90460146/154286836-ec5ebedf-9471-4f4b-84d3-3f1958a75f24.png)
+
 
 ## Information / Process
 
