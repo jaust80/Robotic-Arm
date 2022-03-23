@@ -11,13 +11,29 @@ We originally settled on using carbon fiber for the rods on the arm, however it 
 
 # Servo Holder
 
-## Onshape Model![servo holder](https://user-images.githubusercontent.com/71342179/151715472-0ab765e4-2eed-473a-b299-8699befc805a.PNG)
-![servo](https://user-images.githubusercontent.com/71342179/151715729-b2421684-db5e-498a-9904-1c4eaa2ae02a.png)
+## Description
+
+This part will be used as a case that fits over the servo to hold it and all its wiring in place while the arm is in use.
+
+## Criteria & Constraints
 
 
-## Information / Process
 
-The first part we started to design was the servo holder. An immediate issue we faced is how we were going to insert the model of the servo into the actual design (this would be used for scaling.) We eventually achieved this by navigating to the shared parts and inserting the servo into the design. To get the correct dimensions we utilized the Use tool (The definition of the Use tool as stated on onshape is "Project edges or faces of an existing part or sketch onto the active sketch plane.) The next issue was how we were going to get the servo into the physical part. We decided on having the servo slide upwards into the part by removing slots where other components like wiring might get in the way (this is shown in the second picture above)
+## Bill of Materials
+
+    •Acrylic for printed design
+    •Screws for securing the holder
+    •Metal gear servos
+
+## Documentation/Design
+The first part we started to design was the servo holder. An immediate issue we faced is how we were going to insert the model of the servo into the actual design (this would be used for scaling.) We eventually achieved this by navigating to the shared parts and inserting the servo into the design. To get the correct dimensions we utilized the Use tool (The definition of the Use tool as stated on onshape is "Project edges or faces of an existing part or sketch onto the active sketch plane.) The next issue was how we were going to get the servo into the physical part. We decided on having the servo slide upwards into the part by removing slots where other components like wiring might get in the way.
+
+## Onshape Model
+
+### Front view of the Onshape model![servo holder](https://user-images.githubusercontent.com/71342179/151715472-0ab765e4-2eed-473a-b299-8699befc805a.PNG)
+
+### Side view of the Onshape model![servo](https://user-images.githubusercontent.com/71342179/151715729-b2421684-db5e-498a-9904-1c4eaa2ae02a.png)
+
 
 # Hook/Rod
 
