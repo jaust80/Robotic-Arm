@@ -21,7 +21,6 @@ This part will be used as a case that fits over the servo to hold it and all its
 
 ## Bill of Materials
 
-    •Acrylic for printed design
     •Screws for securing the holder
     •Metal gear servos
 
@@ -37,16 +36,31 @@ The first part we started to design was the servo holder. An immediate issue we 
 
 # Hook/Rod
 
-## Onshape Model
+## Description
 
-![Rod With Hook](https://user-images.githubusercontent.com/90460146/154286836-ec5ebedf-9471-4f4b-84d3-3f1958a75f24.png)
+Rod attached to the servo horn that is used to hold the grocery bags
 
-![Servo with Rod and Hook](https://user-images.githubusercontent.com/90460146/154290177-98077028-bf19-4b5e-8d3f-016543fdb93e.png)
+## Criteria & Constraints
 
 
-## Information / Process
+## Bill of Materials
+
+    •Servo holder that was designed previously
+    •Properly fitted horn for the servo
+    •Screws to secure the hook to the servo
+
+## Documentation/Design
 
 The rod and hook took a little time to get a good model of, but in the end we ended up being happy with the design. We started the hook with rectangular sketch on the servo double horn, then extruded it so it was a rectangular box. In the middle of the box, we sketched a circle and extruded that out 160mm. At the end of the circle extrude we sketched the hook and morphed it into what we thought was the best design. After this, we sketched circles on the rectangular box for the screw holes. We made the dimensions of the circles the same as the holes on the horn in order to get even screw holes. Though we did have trouble sketching the circles, we got around it by using the hook's rectangular box as the sketch face and not the servo horn. If we used the servo horn as the sketch face, the extrude would not work and ended up causing more problems. The second picture listed above is what the hook looks like when it is attached to the servo. The design is what we think is the best fit for us. 
+
+## Onshape Model
+
+### Hook by itself![Rod With Hook](https://user-images.githubusercontent.com/90460146/154286836-ec5ebedf-9471-4f4b-84d3-3f1958a75f24.png)
+
+### Hook with servo![Servo with Rod and Hook](https://user-images.githubusercontent.com/90460146/154290177-98077028-bf19-4b5e-8d3f-016543fdb93e.png)
+
+
+
 
 
 
