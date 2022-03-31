@@ -3,6 +3,19 @@
 We will be documenting our progress throughout our project.
 
 
+Link to, or description of the planning that went into the project, design decisions, and engineering details
+Materials used (as a Bill Of Materials)
+Wiring diagram of your circuit
+Commented code
+Captioned CAD renderings
+Actual photos and/or video (well lit and in focus)
+Your process or a schedule of how you spent your time
+Discussion of problems, errors, miscalculations, and missteps and how you overcame them
+Remember to pass on the big nuggets of wisdom you picked up as you did this project
+The goal of these nuggets is to help the reader have an easier time than you did, or do a better project than yours.
+If you didn't finish, please add an obituary, detailing what you'd do if you picked this project back up, and anything you'd have done differently.
+
+
 # Prototype designs
 
 We originally settled on using carbon fiber for the rods on the arm, however it was much more expensive and ended up not being worth it because of the strength and price of the acrylic already in the lab. 
