@@ -46,10 +46,25 @@ The rod and hook took a little time to get a good model of, but in the end we en
 
 ## Code
 ```python
+# Robot arm program
 import time
 import board
 import pwmio
-import servo
+from adafruit_motor import servo
+import digitalio
+
+closedPos = 0
+openPos = 90
+
+openState = True
+closedState = False
+
+state = closedState
+lastButtonState = state
+
+button = digitalio.DigitalInOut(board.D1)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.DOWN
 
 # create a PWMOut object on Pin A2.
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
@@ -57,10 +72,35 @@ pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
+def closeServo():
+    print("closing")
+    global state
+    my_servo.angle = closedPos
+    state = closedState
+
+def openServo():
+    print("opening")
+    global state
+    my_servo.angle = openPos
+    state = openState
+
 while True:
-    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
-        my_servo.angle = angle
-        time.sleep(0.05)
+    buttonState = button.value
+    print(buttonState, ", servo's state is", state)
+
+
+    if buttonState is True and lastButtonState is False:
+
+        if state is True:
+            print("closing")
+            closeServo()
+        else:
+            print("opening")
+            openServo()
+
+    time.sleep(0.1)
+    lastButtonState = buttonState
+    
     for angle in range(180, 0, -5):  # 180 - 0 degrees, 5 degrees at a time.
         my_servo.angle = angle
         time.sleep(0.05)
