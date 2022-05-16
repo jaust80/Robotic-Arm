@@ -114,6 +114,8 @@ The code above makes the servo switch from an open to close state with the press
 ## Code Infortmation / Process
 
 While we were trying to figure out the code, we ran into many problems with the code itself. The code was somehow interfering with the wiring and making it so when we pressed the button, it wouldn't switch states. 
+
+
 ## Information / Process
 
 On the last day of the quarter January 28 2022 we ran into a major problem of not having a proper proof of concept. We immediately rushed to put something together which consisted of a makeshift acrylic hook and old servo code. However the code we had used on the old servo project had become outdated and we had to find and download the newer correct libraries to get it to run again. When the code finally began to work the was another issue that was presented, there was not enough power going to the servo and we had to use a modified 6V battery pack to get it to run the way we had hoped. The next step was to see how much weight it could which was all but succesful. Initially we tested the strength of the hook with a bag and a 5.6 pound aluminum block. This caused the servo to stall out and we came to the conclusion that with the current design it could only hold up to about 3 pounds
