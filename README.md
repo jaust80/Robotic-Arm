@@ -144,10 +144,7 @@ while True:
     time.sleep(0.1)
     lastButtonState = buttonState
     
-    for angle in range(180, 0, -5):  # 180 - 0 degrees, 5 degrees at a time.
-        my_servo.angle = angle
-        time.sleep(0.05)
-
+   
 ```
 
 ## Code Description
