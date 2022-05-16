@@ -144,7 +144,6 @@ while True:
     time.sleep(0.1)
     lastButtonState = buttonState
     
-   
 ```
 
 ## Code Description
