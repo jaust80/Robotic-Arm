@@ -89,10 +89,25 @@ The rod and hook took a little time to get a good model of, but in the end we en
 
 ## Code
 ```python
+# Robot arm program
 import time
 import board
 import pwmio
-import servo
+from adafruit_motor import servo
+import digitalio
+
+closedPos = 0
+openPos = 120
+
+openState = True
+closedState = False
+
+state = closedState
+lastButtonState = state
+
+button = digitalio.DigitalInOut(board.D1)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.DOWN
 
 # create a PWMOut object on Pin A2.
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
@@ -100,15 +115,50 @@ pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
+def closeServo():
+    print("closing")
+    global state
+    my_servo.angle = closedPos
+    state = closedState
+
+def openServo():
+    print("opening")
+    global state
+    my_servo.angle = openPos
+    state = openState
+
 while True:
-    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
-        my_servo.angle = angle
-        time.sleep(0.05)
+    buttonState = button.value
+    print(buttonState, ", servo's state is", state)
+
+
+    if buttonState is True and lastButtonState is False:
+
+        if state is True:
+            print("closing")
+            closeServo()
+        else:
+            print("opening")
+            openServo()
+
+    time.sleep(0.1)
+    lastButtonState = buttonState
+    
     for angle in range(180, 0, -5):  # 180 - 0 degrees, 5 degrees at a time.
         my_servo.angle = angle
         time.sleep(0.05)
 
 ```
+
+## Code Description
+
+The code above makes the servo switch from an open to close state with the press of a button. It also prints out the value of the state, meaning if the state is false, it prints out that its false, if it's true, it prints out that its true. If you press the button, the servo horn will move 120° and will be represented by the openState. Once we press it again, it will go back to 0° and be represented by closedState.
+
+## Code Infortmation / Process
+
+While we were trying to figure out the code, we ran into many problems with the code itself. The code was somehow interfering with the wiring and making it so when we pressed the button, it wouldn't switch states. 
+
+
 ## Information / Process
 
 On the last day of the quarter January 28 2022 we ran into a major problem of not having a proper proof of concept. We immediately rushed to put something together which consisted of a makeshift acrylic hook and old servo code. However the code we had used on the old servo project had become outdated and we had to find and download the newer correct libraries to get it to run again. When the code finally began to work the was another issue that was presented, there was not enough power going to the servo and we had to use a modified 6V battery pack to get it to run the way we had hoped. The next step was to see how much weight it could which was all but succesful. Initially we tested the strength of the hook with a bag and a 5.6 pound aluminum block. This caused the servo to stall out and we came to the conclusion that with the current design it could only hold up to about 3 pounds
