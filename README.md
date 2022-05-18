@@ -96,8 +96,8 @@ import pwmio
 from adafruit_motor import servo
 import digitalio
 
-closedPos = 0
-openPos = 120
+closedPos = 5
+openPos = 130
 
 openState = True
 closedState = False
