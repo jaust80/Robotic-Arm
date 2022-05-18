@@ -148,11 +148,11 @@ while True:
 
 ## Code Description
 
-The code above makes the servo switch from an open to close state with the press of a button. It also prints out the value of the state, meaning if the state is false, it prints out that its false, if it's true, it prints out that its true. If you press the button, the servo horn will move 120° and will be represented by the openState. Once we press it again, it will go back to 0° and be represented by closedState.
+The code above makes the servo switch from an open to close state with the press of a button. It also prints out the value of the state, meaning if the state is false, it prints out that its false, if it's true, it prints out that its true. If you press the button, the servo horn will move 130° and will be represented by the openState. Once we press it again, it will go back to 5° and be represented by closedState.
 
 ## Code Infortmation / Process
 
-While we were trying to figure out the code, we ran into many problems with the code itself. The code was somehow interfering with the wiring and making it so when we pressed the button, it wouldn't switch states. 
+While we were trying to figure out the code, we ran into many problems with the code itself. The code was somehow interfering with the wiring and making it so when we pressed the button, it wouldn't switch states. We figured out that instead of having two if statements with the open and closed state, it would be better if we made an if state is True statement. This made it so that we could have two states, True and False, and have them be printed out as being "True" or "False". We once again ran into a problem with it switching to the next state and then going back to the previous one. lastButtonState helped us out here as it made sure if you swithced to a new state it would stay as that one as long as the button isn't pressed again. 
 
 
 ## Information / Process
