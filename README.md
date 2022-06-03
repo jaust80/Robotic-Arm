@@ -166,4 +166,4 @@ On the last day of the quarter January 28 2022 we ran into a major problem of no
 
 ## What happened 
 
-Our first error was not having the whole project mapped out before starting. This caused many roadblocks about some of the smaller and more important parts of the project. Examples of this were a power source for the servos, where we would attach the servo holder to the arm, and how we would attach the servo holder to the arm. Code was a major issue because of how late in the project we did it, we also had no idea what we were doing so that was a problem.
+Our first error was not having the whole project mapped out before starting. This caused many roadblocks about some of the smaller and more important parts of the project. Examples of this were a power source for the servos, where we would attach the servo holder to the arm, and how we would attach the servo holder to the arm. Code was a major issue because of how late in the project we did it, we also had no idea what we were doing so that was a problem. We also had many different ideas and we couldn't decide which ones were the most logical and which ones we wanted to pursue.
