@@ -164,6 +164,10 @@ On the last day of the quarter January 28 2022 we ran into a major problem of no
 # Obituary 
 
 
-## What happened 
+## What Happened 
 
-Our first error was not having the whole project mapped out before starting. This caused many roadblocks about some of the smaller and more important parts of the project. Examples of this were a power source for the servos, where we would attach the servo holder to the arm, and how we would attach the servo holder to the arm. Code was a major issue because of how late in the project we did it, we also had no idea what we were doing so that was a problem.
+Our first error was not having the whole project mapped out before starting. This caused many roadblocks about some of the smaller and more important parts of the project. Examples of this were a power source for the servos, where we would attach the servo holder to the arm, and how we would attach the servo holder to the arm. Code was a major issue because of how late in the project we did it, we also had no idea what we were doing so that was a problem. We also had many different ideas and we couldn't decide which ones were the most logical and which ones we wanted to pursue.
+
+## What We Would Change
+
+If we were to pick this project back up again, we would do many things differently. For starters, we would make a detailed list of all the materials we need and a schedule on what to accomplish each week or two. We would most likely start with the harder stuff first, like the code and testing, then go to the easier stuff, like the CAD. Also, research would be done before hand on the servos and which kind would be the best to buy. We bought the current [servos](https://www.amazon.com/gp/product/B07MFK266B/ref=ewc_pr_img_1?smid=A2QTZX14X1D97I&psc=1) we have and figured it would do the job but it turns out the weight it could turn was lighter than we thought. This was also due to how long we made the hook as it lost strength the further away it was.
